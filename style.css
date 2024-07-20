@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.tetris {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-board {
+    border: 1px solid #fff;
+    width: 200px;
+    height: 400px;
+    position: relative;
+}
+
+#game-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#score-board {
+    margin-top: 20px;
+}
